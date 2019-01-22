@@ -1,30 +1,36 @@
 {
   "compilerOptions": {
-    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "checkJs": false,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["es2018", "dom"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "noImplicitAny": true,
-    "noFallthroughCasesInSwitch": true,
-    "forceConsistentCasingInFileNames": true,
-
-    "checkJs": false,
-
-    "jsx": "preserve",
-
+    "paths": { "~/*": ["src/*"] },
     "skipLibCheck": true,
-    "lib": ["es2018", "dom"],
-
-    "module": "esnext",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node",
-    "isolatedModules": true,
-
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-
-    "baseUrl": ".",
-    "paths": { "~/*": ["src/*"] }
+    "strict": true,
+    "target": "es5"
   },
-  "include": ["src"]
+  "include": ["src"],
+  "plugins": [
+    {
+      "name": "typescript-tslint-plugin",
+      "alwaysShowRuleFailuresAsWarnings": true,
+      "ignoreDefinitionFiles": false,
+      "configFile": "tslint.json",
+      "suppressWhileTypeErrorsPresent": true,
+      "jsEnable": false,
+      "mockTypeScriptVersion": false
+    }
+  ]
 }
