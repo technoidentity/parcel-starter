@@ -1,0 +1,16 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "files.autoSave": "onWindowChange",
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "emmet.syntaxProfiles": { "javascript": "html" },
+  "prettier.eslintIntegration": false,
+  "javascript.implicitProjectConfig.checkJs": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false,
+  "tslint.configFile": "tslint.json",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.words": ["Parens", "formik", "ulid"],
+  "typescript.surveys.enabled": false
+}
