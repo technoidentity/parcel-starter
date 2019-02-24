@@ -65,7 +65,7 @@
     "parcel-plugin-bundle-visualiser": "^1.2.0",
     "prettier": "^1.16.4",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
-    "react-testing-library": "^5.9.0",
+    "react-testing-library": "^6.0.0",
     "rimraf": "^2.6.3",
     "ts-jest": "^24.0.0",
     "ts-node": "^8.0.2",
