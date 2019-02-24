@@ -2,6 +2,7 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
+    "rootDirs": ["src", "stories"],
     "checkJs": false,
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
