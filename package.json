@@ -4,7 +4,7 @@
   "description": "Simple Web Starter for React, supports Javascript and Typescript",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html --open",
     "build": "parcel build index.html",
     "test": "jest",
     "clean:dist": "rimraf dist .cache",
@@ -84,7 +84,6 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-hanger": "^1.1.4",
-    "react-hot-loader": "^4.7.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-use": "^5.5.0",
