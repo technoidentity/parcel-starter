@@ -67,7 +67,6 @@
     "type-literal-delimiter": false,
     "unified-signatures": true,
     "use-isnan": true,
-
     // disable this rule as it is very heavy performance-wise and not that useful
     "no-use-before-declare": false,
     "variable-name": {
