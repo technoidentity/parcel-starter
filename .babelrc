@@ -1,13 +1,1 @@
-{
-  "plugins": [
-    ["@babel/plugin-proposal-class-properties"],
-    ["@babel/plugin-proposal-pipeline-operator", { "proposal": "smart" }],
-    [
-      "babel-plugin-root-import",
-      {
-        "rootPathSuffix": "./src/",
-        "rootPathPrefix": "~"
-      }
-    ]
-  ]
-}
+{ "plugins": [["@babel/plugin-proposal-class-properties"]] }

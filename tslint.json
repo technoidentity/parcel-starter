@@ -50,6 +50,7 @@
     "no-unnecessary-qualifier": true,
     "no-unnecessary-type-assertion": true,
     "no-unsafe-finally": true,
+    "no-use-before-declare": false,
     "no-var-keyword": true,
     "no-var-requires": true,
     "ordered-imports": false,
@@ -67,8 +68,6 @@
     "type-literal-delimiter": false,
     "unified-signatures": true,
     "use-isnan": true,
-    // disable this rule as it is very heavy performance-wise and not that useful
-    "no-use-before-declare": false,
     "variable-name": {
       "options": ["ban-keywords", "check-format", "allow-pascal-case"]
     }
