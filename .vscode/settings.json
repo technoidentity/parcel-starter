@@ -11,6 +11,12 @@
   "javascript.validate.enable": false,
   "tslint.configFile": "tslint.json",
   "typescript.tsdk": "node_modules/typescript/lib",
-  "cSpell.words": ["Parens", "formik", "ulid"],
+  "cSpell.words": [
+    "Parens",
+    "formik",
+    "technoidentity",
+    "ulid",
+    "utils"
+  ],
   "typescript.surveys.enabled": false
 }
