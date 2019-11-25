@@ -4,15 +4,15 @@ Web development using [parcel](https://parceljs.org), [eslint](http://eslint.org
 
 ## Usage
 
-1.  Install [nodejs](https://nodejs.org/en/). I highly recommend using [nvm](https://github.com/creationix/nvm). If you are on mac or ubuntu, you could use the following command to install nodejs. It's from my [lean-dotfiles](https://gitlab.com/seartipy/lean-dotfiles) configuration.
+1.  Install [nodejs](https://nodejs.org/en/). I highly recommend using [nvm](https://github.com/creationix/nvm). If you are on mac or ubuntu, you could use the following command to install nodejs. It's from my [dotfiles](https://gitlab.com/seartipy/dotfiles) configuration.
 
     On Mac
 
-         curl -L j.mp/srtpldf > setup && bash setup web
+         curl -L j.mp/srtpdtf > setup && bash setup web vscode
 
     On Ubuntu
 
-         wget -qO- j.mp/srtpldf > setup && bash setup web
+         wget -qO- j.mp/srtpdtf > setup && bash setup web vscode
 
 2.  Clone this repository, install npm packages and open the project in visual studio code. Make sure you have [git](https://git-scm.com/) installed.
 
@@ -27,13 +27,15 @@ Web development using [parcel](https://parceljs.org), [eslint](http://eslint.org
         yarn start
 
     Now you can edit `src/index.js` in any editor and see your changes in browser immediately.
+
     You could use `yarn test` to run jest tests.
-    You could use `yarn run check-all` for checking types and linting all files in `src` folder.
+
+    You could use `yarn validate` for checking types, linting all files and run tests in `src` folder.
 
 4)  If you use `visual studio code`, install `visual studio code extensions` using the following commands
 
          code --install-extension msjsdiag.debugger-for-chrome
-         code --install-extension eg2.tslint
+         code --install-extension ms-vscode.vscode-typescript-tslint-plugin
          code --install-extension dbaeumer.vscode-eslint
          code --install-extension esbenp.prettier-vscode
 
