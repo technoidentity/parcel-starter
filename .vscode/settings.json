@@ -4,8 +4,9 @@
   "files.insertFinalNewline": true,
   "files.autoSave": "onWindowChange",
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  "emmet.syntaxProfiles": { "javascript": "html" },
-  "prettier.eslintIntegration": false,
+  "emmet.syntaxProfiles": {
+    "javascript": "html"
+  },
   "javascript.implicitProjectConfig.checkJs": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
