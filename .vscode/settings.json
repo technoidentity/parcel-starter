@@ -14,4 +14,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "cSpell.words": ["Parens", "formik", "technoidentity", "ulid", "utils"],
   "typescript.surveys.enabled": false
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true
+  // }
 }
