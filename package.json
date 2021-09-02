@@ -60,7 +60,7 @@
   "dependencies": {
     "date-fns": "2.8.1",
     "formik": "2.0.8",
-    "immer": "5.0.2",
+    "immer": "9.0.6",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "technoidentity-utils": "^1.2.19",
